@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.themezinho.net	TRUE	/	FALSE	1999999999	mailchimp_landing_site	http%3A%2F%2Fthemezinho.net%2Ftourog%2Fpreview.png
+themezinho.net	TRUE	/	FALSE	1999999999	mailchimp_landing_site	http%3A%2F%2Fthemezinho.net%2Ftourog%2Fpreview.png
+
