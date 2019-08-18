@@ -209,6 +209,27 @@ textarea {
   height: 3px !important;
 } */
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #75dab4; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #549c81; 
+}
+
+
 /* SPLITTING */
 .splitting .word, .splitting .char {
   display: inline-block;
@@ -1776,12 +1797,12 @@ textarea {
   list-style: none;
   padding: 60px;
 }
-.works ul li:nth-child(2n+2) {
+/* .works ul li:nth-child(2n+2) {
   margin-top: 100px;
 }
 .works ul li:nth-child(3n+3) {
   margin-top: 40px;
-}
+} */
 .works ul li figure {
   width: 100%;
   display: block;
@@ -1796,8 +1817,9 @@ textarea {
   transition: 0.25s ease-in-out;
 }
 .works ul li figure:hover {
-  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
-  transform: translateY(-10px);
+  /* box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3); */
+  /* transform: translateY(-10px); */
+  transform: scale(1.02);
 }
 .works ul li figure:hover:before {
   opacity: 1;
