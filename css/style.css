@@ -175,7 +175,7 @@ textarea {
 }
 
 /* EQUALIZER */
-.equalizer {
+/* .equalizer {
   width: 26px;
   height: 30px;
   cursor: pointer;
@@ -207,7 +207,7 @@ textarea {
 
 .equalizer.paused span {
   height: 3px !important;
-}
+} */
 
 /* SPLITTING */
 .splitting .word, .splitting .char {
