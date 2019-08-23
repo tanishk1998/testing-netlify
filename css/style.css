@@ -647,7 +647,7 @@ textarea {
 .site-navigation .inner ul li a {
   font-size: 50px;
   display: inline-block;
-  font-weight: 800;
+  font-weight: 600;
   color: #fff;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
@@ -930,19 +930,24 @@ textarea {
 }
 .left-side .hamburger {
   margin: auto;
+  margin-bottom: 250px !important; 
 }
 .left-side .follow-us {
   width: 100px;
   font-family: "Fjalla One", sans-serif;
   color: #fff;
   text-align: center;
-  transform: rotate(-90deg);
-  margin: auto;
+  /* transform: rotate(-90deg); */
+  /* margin: auto; */
   cursor: pointer;
 }
 .left-side .equalizer {
   margin: auto;
   margin-bottom: 0;
+}
+
+.follow-us:hover{
+  color: #75dab4;
 }
 
 /* SLIDER */
@@ -2686,6 +2691,9 @@ textarea {
     display: none;
   }
 
+  .follow-us{
+    margin: auto;
+  }
   .slide-progress {
     display: none;
   }
